@@ -1,0 +1,152 @@
+{
+  "sch": {
+    "setName": "Scholar",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Scholar%27s_Quill_Pen.png",
+    "name": "Scholar's Quill Pen"
+  },
+  "lyd": {
+    "setName": "Lucky Dog",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Item_Lucky_Dog%27s_Eagle_Feather.png",
+    "name": "Lucky Dog's Eagle Feather"
+  },
+  "cwf": {
+    "setName": "Crimson Witch of Flames",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png",
+    "name": "Witch's Ever-Burning Plume"
+  },
+  "dew": {
+    "setName": "Defender's Will",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Guardian%27s_Sigil.png",
+    "name": "Guardian's Sigil"
+  },
+  "exl": {
+    "setName": "The Exile",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Item_Exile%27s_Feather.png",
+    "name": "Exile's Feather"
+  },
+  "viv": {
+    "setName": "Viridescent Venerer",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png",
+    "name": "Viridescent Arrow Feather"
+  },
+  "wat": {
+    "setName": "Wanderer's Troupe",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png",
+    "name": "Bard's Arrow Feather"
+  },
+  "glf": {
+    "setName": "Gladiator's Finale",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Gladiator%27s_Destiny.png",
+    "name": "Gladiator's Destiny"
+  },
+  "ros": {
+    "setName": "Resolution of Sojourner",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Feather_of_Homecoming.png",
+    "name": "Feather of Homecoming"
+  },
+  "mab": {
+    "setName": "Maiden Beloved",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Item_Maiden%27s_Heart-stricken_Infatuation.png",
+    "name": "Maiden's Heart-stricken Infatuation"
+  },
+  "blc": {
+    "setName": "Bloodstained Chivalry",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Bloodstained_Black_Plume.png",
+    "name": "Bloodstained Black Plume"
+  },
+  "nob": {
+    "setName": "Noblesse Oblige",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Royal_Plume.png",
+    "name": "Royal Plume"
+  },
+  "gam": {
+    "setName": "Gambler",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Gambler%27s_Feather_Accessory.png",
+    "name": "Gambler's Feather Accessory"
+  },
+  "brh": {
+    "setName": "Brave Heart",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Prospect_of_the_Brave.png",
+    "name": "Prospect of the Brave"
+  },
+  "trd": {
+    "setName": "Traveling Doctor",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Traveling_Doctor%27s_Owl_Feather.png",
+    "name": "Traveling Doctor's Owl Feather"
+  },
+  "adv": {
+    "setName": "Adventurer",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/30/Item_Adventurer%27s_Tail_Feather.png",
+    "name": "Adventurer's Tail Feather"
+  },
+  "mar": {
+    "setName": "Martial Artist",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Martial_Artist%27s_Feather_Accessory.png",
+    "name": "Martial Artist's Feather Accessory"
+  },
+  "reb": {
+    "setName": "Retracing Bolide",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png",
+    "name": "Summer Night's Finale"
+  },
+  "lav": {
+    "setName": "Lavawalker",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Lavawalker%27s_Salvation.png",
+    "name": "Lavawalker's Salvation"
+  },
+  "ber": {
+    "setName": "Berserker",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Berserker%27s_Indigo_Feather.png",
+    "name": "Berserker's Indigo Feather"
+  },
+  "ths": {
+    "setName": "Thundersoother",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png",
+    "name": "Thundersoother's Plume"
+  },
+  "thf": {
+    "setName": "Thundering Fury",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png",
+    "name": "Survivor of Catastrophe"
+  },
+  "arp": {
+    "setName": "Archaic Petra",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Feather_of_Jagged_Peaks.png",
+    "name": "Feather of Jagged Peaks"
+  },
+  "ins": {
+    "setName": "Instructor",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Item_Instructor%27s_Feather_Accessory.png",
+    "name": "Instructor's Feather Accessory"
+  },
+  "tim": {
+    "setName": "Tiny Miracle",
+    "type": "feather",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Tiny_Miracle%27s_Feather.png",
+    "name": "Tiny Miracle's Feather"
+  }
+}

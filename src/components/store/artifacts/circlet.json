@@ -1,0 +1,152 @@
+{
+  "sch": {
+    "setName": "Scholar",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Scholar%27s_Lens.png",
+    "name": "Scholar's Lens"
+  },
+  "lyd": {
+    "setName": "Lucky Dog",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Lucky_Dog%27s_Silver_Circlet.png",
+    "name": "Lucky Dog's Silver Circlet"
+  },
+  "cwf": {
+    "setName": "Crimson Witch of Flames",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png",
+    "name": "Witch's Scorching Hat"
+  },
+  "dew": {
+    "setName": "Defender's Will",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Guardian%27s_Band.png",
+    "name": "Guardian's Band"
+  },
+  "exl": {
+    "setName": "The Exile",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Exile%27s_Circlet.png",
+    "name": "Exile's Circlet"
+  },
+  "viv": {
+    "setName": "Viridescent Venerer",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png",
+    "name": "Viridescent Venerer's Diadem"
+  },
+  "wat": {
+    "setName": "Wanderer's Troupe",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png",
+    "name": "Conductor's Top Hat"
+  },
+  "glf": {
+    "setName": "Gladiator's Finale",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Gladiator%27s_Triumphus.png",
+    "name": "Gladiator's Triumphus"
+  },
+  "ros": {
+    "setName": "Resolution of Sojourner",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Crown_of_Parting.png",
+    "name": "Crown of Parting"
+  },
+  "mab": {
+    "setName": "Maiden Beloved",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png",
+    "name": "Maiden's Fading Beauty"
+  },
+  "blc": {
+    "setName": "Bloodstained Chivalry",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Bloodstained_Iron_Mask.png",
+    "name": "Bloodstained Iron Mask"
+  },
+  "nob": {
+    "setName": "Noblesse Oblige",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Royal_Masque.png",
+    "name": "Royal Masque"
+  },
+  "gam": {
+    "setName": "Gambler",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Gambler%27s_Earrings.png",
+    "name": "Gambler's Earrings"
+  },
+  "brh": {
+    "setName": "Brave Heart",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Crown_of_the_Brave.png",
+    "name": "Crown of the Brave"
+  },
+  "trd": {
+    "setName": "Traveling Doctor",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Traveling_Doctor%27s_Handkerchief.png",
+    "name": "Traveling Doctor's Handkerchief"
+  },
+  "adv": {
+    "setName": "Adventurer",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Adventurer%27s_Bandana.png",
+    "name": "Adventurer's Bandana"
+  },
+  "mar": {
+    "setName": "Martial Artist",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Martial_Artist%27s_Bandana.png",
+    "name": "Martial Artist's Bandana"
+  },
+  "reb": {
+    "setName": "Retracing Bolide",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png",
+    "name": "Summer Night's Mask"
+  },
+  "lav": {
+    "setName": "Lavawalker",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Lavawalker%27s_Wisdom.png",
+    "name": "Lavawalker's Wisdom"
+  },
+  "ber": {
+    "setName": "Berserker",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Berserker%27s_Battle_Mask.png",
+    "name": "Berserker's Battle Mask"
+  },
+  "ths": {
+    "setName": "Thundersoother",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png",
+    "name": "Thundersoother's Diadem"
+  },
+  "thf": {
+    "setName": "Thundering Fury",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png",
+    "name": "Thunder Summoner's Crown"
+  },
+  "arp": {
+    "setName": "Archaic Petra",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Mask_of_Solitude_Basalt.png",
+    "name": "Mask of Solitude Basalt"
+  },
+  "ins": {
+    "setName": "Instructor",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Instructor%27s_Cap.png",
+    "name": "Instructor's Cap"
+  },
+  "tim": {
+    "setName": "Tiny Miracle",
+    "type": "circlet",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Item_Tiny_Miracle%27s_Earrings.png",
+    "name": "Tiny Miracle's Earrings"
+  }
+}

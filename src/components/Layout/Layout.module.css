@@ -1,0 +1,24 @@
+.Layout {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2.4fr 1fr;
+    background-color: #e17632;
+}
+
+.artifacts {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* 
+.artifactRow {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .artifactRow div {
+    justify-content: center;
+    align-items: center;
+} */

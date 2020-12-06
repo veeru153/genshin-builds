@@ -1,0 +1,152 @@
+{
+  "sch": {
+    "setName": "Scholar",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Scholar%27s_Bookmark.png",
+    "name": "Scholar's Bookmark"
+  },
+  "lyd": {
+    "setName": "Lucky Dog",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Item_Lucky_Dog%27s_Clover.png",
+    "name": "Lucky Dog's Clover"
+  },
+  "cwf": {
+    "setName": "Crimson Witch of Flames",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png",
+    "name": "Witch's Flower of Blaze"
+  },
+  "dew": {
+    "setName": "Defender's Will",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Guardian%27s_Flower.png",
+    "name": "Guardian's Flower"
+  },
+  "exl": {
+    "setName": "The Exile",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Item_Exile%27s_Flower.png",
+    "name": "Exile's Flower"
+  },
+  "viv": {
+    "setName": "Viridescent Venerer",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png",
+    "name": "In Remembrance of Viridescent Fields"
+  },
+  "wat": {
+    "setName": "Wanderer's Troupe",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png",
+    "name": "Troupe's Dawnlight"
+  },
+  "glf": {
+    "setName": "Gladiator's Finale",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png",
+    "name": "Gladiator's Nostalgia"
+  },
+  "ros": {
+    "setName": "Resolution of Sojourner",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Heart_of_Comradeship.png",
+    "name": "Heart of Comradeship"
+  },
+  "mab": {
+    "setName": "Maiden Beloved",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png",
+    "name": "Maiden's Distant Love"
+  },
+  "blc": {
+    "setName": "Bloodstained Chivalry",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png",
+    "name": "Bloodstained Flower of Iron"
+  },
+  "nob": {
+    "setName": "Noblesse Oblige",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png",
+    "name": "Royal Flora"
+  },
+  "gam": {
+    "setName": "Gambler",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Item_Gambler%27s_Brooch.png",
+    "name": "Gambler's Brooch"
+  },
+  "brh": {
+    "setName": "Brave Heart",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Medal_of_the_Brave.png",
+    "name": "Medal of the Brave"
+  },
+  "trd": {
+    "setName": "Traveling Doctor",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Traveling_Doctor%27s_Silver_Lotus.png",
+    "name": "Traveling Doctor's Silver Lotus"
+  },
+  "adv": {
+    "setName": "Adventurer",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Adventurer%27s_Flower.png",
+    "name": "Adventurer's Flower"
+  },
+  "mar": {
+    "setName": "Martial Artist",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Martial_Artist%27s_Red_Flower.png",
+    "name": "Martial Artist's Red Flower"
+  },
+  "reb": {
+    "setName": "Retracing Bolide",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png",
+    "name": "Summer Night's Bloom"
+  },
+  "lav": {
+    "setName": "Lavawalker",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Lavawalker%27s_Resolution.png",
+    "name": "Lavawalker's Resolution"
+  },
+  "ber": {
+    "setName": "Berserker",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Berserker%27s_Rose.png",
+    "name": "Berserker's Rose"
+  },
+  "ths": {
+    "setName": "Thundersoother",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png",
+    "name": "Thundersoother's Heart"
+  },
+  "thf": {
+    "setName": "Thundering Fury",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png",
+    "name": "Thunderbird's Mercy"
+  },
+  "arp": {
+    "setName": "Archaic Petra",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Flower_of_Creviced_Cliff.png",
+    "name": "Flower of Creviced Cliff"
+  },
+  "ins": {
+    "setName": "Instructor",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Item_Instructor%27s_Brooch.png",
+    "name": "Instructor's Brooch"
+  },
+  "tim": {
+    "setName": "Tiny Miracle",
+    "type": "flower",
+    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Item_Tiny_Miracle%27s_Flower.png",
+    "name": "Tiny Miracle's Flower"
+  }
+}

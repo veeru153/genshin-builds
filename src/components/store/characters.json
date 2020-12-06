@@ -1,0 +1,184 @@
+{
+  "Amber": {
+    "name": "Amber",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Bow"
+  },
+  "Barbara": {
+    "name": "Barbara",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png",
+    "element": "Hydro",
+    "weapon": "Catalyst"
+  },
+  "Beidou": {
+    "name": "Beidou",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+    "element": "Electro",
+    "weapon": "Claymore"
+  },
+  "Bennett": {
+    "name": "Bennett",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Sword"
+  },
+  "Chongyun": {
+    "name": "Chongyun",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png",
+    "element": "Cryo",
+    "weapon": "Claymore"
+  },
+  "Diluc": {
+    "name": "Diluc",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Claymore"
+  },
+  "Diona": {
+    "name": "Diona",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+    "element": "Cryo",
+    "weapon": "Bow"
+  },
+  "Fischl": {
+    "name": "Fischl",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+    "element": "Electro",
+    "weapon": "Bow"
+  },
+  "Jean": {
+    "name": "Jean",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png",
+    "element": "Anemo",
+    "weapon": "Sword"
+  },
+  "Kaeya": {
+    "name": "Kaeya",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Character_Kaeya_Thumb.png",
+    "element": "Cryo",
+    "weapon": "Sword"
+  },
+  "Keqing": {
+    "name": "Keqing",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png",
+    "element": "Electro",
+    "weapon": "Sword"
+  },
+  "Klee": {
+    "name": "Klee",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Catalyst"
+  },
+  "Lisa": {
+    "name": "Lisa",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png",
+    "element": "Electro",
+    "weapon": "Catalyst"
+  },
+  "Mona": {
+    "name": "Mona",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png",
+    "element": "Hydro",
+    "weapon": "Catalyst"
+  },
+  "Ningguang": {
+    "name": "Ningguang",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+    "element": "Geo",
+    "weapon": "Catalyst"
+  },
+  "Noelle": {
+    "name": "Noelle",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png",
+    "element": "Geo",
+    "weapon": "Claymore"
+  },
+  "Qiqi": {
+    "name": "Qiqi",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png",
+    "element": "Cryo",
+    "weapon": "Sword"
+  },
+  "Razor": {
+    "name": "Razor",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+    "element": "Electro",
+    "weapon": "Claymore"
+  },
+  "Sucrose": {
+    "name": "Sucrose",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png",
+    "element": "Anemo",
+    "weapon": "Catalyst"
+  },
+  "Tartaglia": {
+    "name": "Tartaglia",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png",
+    "element": "Hydro",
+    "weapon": "Bow"
+  },
+  "Traveler": {
+    "name": "Traveler",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png",
+    "element": "Adaptive",
+    "weapon": "Sword"
+  },
+  "Venti": {
+    "name": "Venti",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png",
+    "element": "Anemo",
+    "weapon": "Bow"
+  },
+  "Xiangling": {
+    "name": "Xiangling",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Polearm"
+  },
+  "Xingqiu": {
+    "name": "Xingqiu",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+    "element": "Hydro",
+    "weapon": "Sword"
+  },
+  "Xinyan": {
+    "name": "Xinyan",
+    "rarity": 4,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+    "element": "Pyro",
+    "weapon": "Claymore"
+  },
+  "Zhongli": {
+    "name": "Zhongli",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png",
+    "element": "Geo",
+    "weapon": "Polearm"
+  }
+}
