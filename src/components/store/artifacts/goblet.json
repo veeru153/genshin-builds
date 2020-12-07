@@ -2,151 +2,151 @@
   "sch": {
     "setName": "Scholar",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Scholar%27s_Ink_Cup.png",
     "name": "Scholar's Ink Cup"
   },
   "lyd": {
     "setName": "Lucky Dog",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Lucky_Dog%27s_Goblet.png",
     "name": "Lucky Dog's Goblet"
   },
   "cwf": {
     "setName": "Crimson Witch of Flames",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png",
     "name": "Witch's Heart Flames"
   },
   "dew": {
     "setName": "Defender's Will",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Guardian%27s_Vessel.png",
     "name": "Guardian's Vessel"
   },
   "exl": {
     "setName": "The Exile",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Exile%27s_Goblet.png",
     "name": "Exile's Goblet"
   },
   "viv": {
     "setName": "Viridescent Venerer",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png",
     "name": "Viridescent Venerer's Vessel"
   },
   "wat": {
     "setName": "Wanderer's Troupe",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Wanderer%27s_String_Kettle.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Wanderer%27s_String_Kettle.png",
     "name": "Wanderer's String Kettle"
   },
   "glf": {
     "setName": "Gladiator's Finale",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png",
     "name": "Gladiator's Intoxication"
   },
   "ros": {
     "setName": "Resolution of Sojourner",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Goblet_of_the_Sojourner.png",
     "name": "Goblet of the Sojourner"
   },
   "mab": {
     "setName": "Maiden Beloved",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png",
     "name": "Maiden's Fleeting Leisure"
   },
   "blc": {
     "setName": "Bloodstained Chivalry",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png",
     "name": "Bloodstained Chevalier's Goblet"
   },
   "nob": {
     "setName": "Noblesse Oblige",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png",
     "name": "Royal Silver Urn"
   },
   "gam": {
     "setName": "Gambler",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Gambler%27s_Dice_Cup.png",
     "name": "Gambler's Dice Cup"
   },
   "brh": {
     "setName": "Brave Heart",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Outset_of_the_Brave.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_Outset_of_the_Brave.png",
     "name": "Outset of the Brave"
   },
   "trd": {
     "setName": "Traveling Doctor",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/25/Item_Traveling_Doctor%27s_Medicine_Pot.png",
     "name": "Traveling Doctor's Medicine Pot"
   },
   "adv": {
     "setName": "Adventurer",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Item_Adventurer%27s_Golden_Goblet.png",
     "name": "Adventurer's Golden Goblet"
   },
   "mar": {
     "setName": "Martial Artist",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Item_Martial_Artist%27s_Wine_Cup.png",
     "name": "Martial Artist's Wine Cup"
   },
   "reb": {
     "setName": "Retracing Bolide",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png",
     "name": "Summer Night's Waterballoon"
   },
   "lav": {
     "setName": "Lavawalker",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png",
     "name": "Lavawalker's Epiphany"
   },
   "ber": {
     "setName": "Berserker",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Item_Berserker%27s_Bone_Goblet.png",
     "name": "Berserker's Bone Goblet"
   },
   "ths": {
     "setName": "Thundersoother",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png",
     "name": "Thundersoother's Goblet"
   },
   "thf": {
     "setName": "Thundering Fury",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png",
     "name": "Omen of Thunderstorm"
   },
   "arp": {
     "setName": "Archaic Petra",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png",
     "name": "Goblet of Chiseled Crag"
   },
   "ins": {
     "setName": "Instructor",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Instructor%27s_Tea_Cup.png",
     "name": "Instructor's Tea Cup"
   },
   "tim": {
     "setName": "Tiny Miracle",
     "type": "goblet",
-    "imgUrl": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Item_Tiny_Miracle%27s_Goblet.png",
     "name": "Tiny Miracle's Goblet"
   }
 }
