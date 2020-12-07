@@ -2,7 +2,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /* background-color: rgba(255,255,255,0.3); */
 }
 
 .imgContainer {
@@ -37,7 +36,6 @@
 .meta {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     font-size: clamp(16px, 4vw, 40px);
     filter: drop-shadow(-5px 5px 10px rgba(0,0,0,0.36));

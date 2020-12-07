@@ -39,7 +39,6 @@ const Artifact = ({ data, type }) => {
                 <div className={classes.statGroup}>
                     <div>Meta</div>
                     <div className={classes.statRow}>
-                        {/* <div>{data.stars}</div> */}
                         <div>
                             <img src={stars[data.stars]} alt={data.stars}></img>
                         </div>

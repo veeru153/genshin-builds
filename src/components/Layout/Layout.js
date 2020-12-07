@@ -7,10 +7,6 @@ import { getArtifactsFromParams, getCharacterFromParams } from '../util';
 import { characters, elements } from '../store';
 import Bonus from '../Bonus/Bonus';
 
-// http://localhost:3000/?character=Bennett,2,31&flower=sch,12,hp+69,atk+4.20p,critr+3.6p&plume=sch,12,hp+69,atk+4.20p,critr+3.6p&sands=sch,12,hp+69,atk+4.20p,critr+3.6p&goblet=sch,12,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,hp+69,atk+4.20p,critr+3.6p
-
-// http://localhost:3000/?character=Amber,2,31&flower=adv,12,3,hp+69,atk+4.20p,critr+3.6p&plume=sch,12,3,hp+69,atk+4.20p,critr+3.6p&sands=sch,12,4,3hp+69,atk+4.20p,critr+3.6p&goblet=sch,12,4,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,5,hp+69,atk+4.20p,critr+3.6p
-
 class Layout extends Component {
 
     state = {
