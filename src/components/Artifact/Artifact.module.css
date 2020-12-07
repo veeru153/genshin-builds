@@ -2,7 +2,10 @@
     display: grid;
     grid-template-rows: 0.3fr 0.7fr;
     /* background-color: greenyellow; */
-    /* border: 1px solid black; */
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .info {
@@ -10,7 +13,7 @@
     grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .imgContainer {
@@ -34,16 +37,19 @@
 }
 
 .stats {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-rows: 1fr 1.5fr 2fr;
     text-align: left;
-    border: 1px solid black;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
 }
 
 .statGroup {
     width: 88%;
     margin: 10px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* .statGroup div {

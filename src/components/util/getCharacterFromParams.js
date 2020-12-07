@@ -7,6 +7,10 @@ const getCharacterFromParams = (params) => {
         level: parseInt(data[2]),
     }
 
+    if(character.name == "Traveler") {
+        character.element = data[3];
+    }
+
     return new Promise((resolve, reject) => {
         resolve(character);
     })

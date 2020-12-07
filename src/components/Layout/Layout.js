@@ -34,10 +34,13 @@ class Layout extends Component {
 
     render() {
         const { flower, plume, sands, goblet, circlet } = this.state.artifacts;
+        const el = this.state.character.name == "Traveler" 
+                    ? this.state.character?.element 
+                    : characters[this.state.character.name]?.element;
         return (
             <>
             {this.state.loaded ? 
-                <div className={classes.Layout} style={{ backgroundColor: elements[characters[this.state.character.name].element].hex }}>
+                <div className={classes.Layout} style={{ backgroundColor: elements[el].hex }}>
                     <Character data={this.state.character}/>
                     <div className={classes.artifacts}>
                         <Artifact type="flower" data={flower} />

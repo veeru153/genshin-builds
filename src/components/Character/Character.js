@@ -4,7 +4,7 @@ import classes from './Character.module.css';
 import { characters, elements, weaponTypes } from '../store';
 
 const Character = ({ data }) => {
-    // console.log(characters[data.name].img);
+    let el = data.name == "Traveler" ? data.element : characters[data.name].element;
     return (
         <div className={classes.Character}>
             <div className={classes.imgContainer}>
@@ -13,7 +13,7 @@ const Character = ({ data }) => {
             <div className={classes.info}>
                 <div className={classes.meta}>
                     <div>{data.name}</div>
-                    <img src={elements[characters[data.name].element].img} alt={characters[data.name].element} ></img>
+                    <img src={elements[el].img} alt={el} ></img>
                     <img src={weaponTypes[characters[data.name].weapon]} alt={characters[data.name].weapon}></img>
                 </div>
                 <div>{data.ascension}</div>

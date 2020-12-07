@@ -26,8 +26,6 @@ const Artifact = ({ data, type }) => {
             break;
     }
 
-    console.log(data)
-
     return (
         <div className={classes.Artifact}>
             <div className={classes.info}>
