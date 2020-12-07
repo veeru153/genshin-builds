@@ -9,7 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 172px;
+    height: 156px;
+    margin: 8px auto;
 }
 
 .imgContainer img {
@@ -17,6 +18,8 @@
     width: inherit;
     height: inherit;
     background-color: rgba(255,255,255);
+    border: 3px solid black;
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.36);
 }
 
 .info {
@@ -37,7 +40,7 @@
     /* justify-content: center; */
     align-items: center;
     font-size: clamp(16px, 4vw, 40px);
-    filter: drop-shadow(1px 1px 16px rgba(0,0,0,0.64));
+    filter: drop-shadow(-5px 5px 10px rgba(0,0,0,0.36));
 
 }
 

@@ -10,7 +10,7 @@
 
 .info {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid black;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .stats {
@@ -65,9 +65,13 @@
     margin: 6px auto;
 }
 
-/* .statGroup div:nth-child(2) {
-    text-align: left;
-} */
+.statRow:nth-child(1) {
+    height: 100%;
+}
 .statRow:nth-child(2) {
     text-align: left;
+}
+
+.statRow img {
+    height: 18px;
 }

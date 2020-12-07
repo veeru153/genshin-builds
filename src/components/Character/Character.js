@@ -16,7 +16,7 @@ const Character = ({ data }) => {
                     <img src={elements[el].img} alt={el} ></img>
                     <img src={weaponTypes[characters[data.name].weapon]} alt={characters[data.name].weapon}></img>
                 </div>
-                <div>{data.ascension}</div>
+                <div>Ascension Level {data.ascension}</div>
                 <div>Level {data.level}</div>
             </div>
         </div>

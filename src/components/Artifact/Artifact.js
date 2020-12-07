@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Artifact.module.css';
 
 import { flower, feather, clock, goblet, circlet } from '../store/artifacts';
+import { stars } from '../store';
 import { parseStat } from '../util';
 
 const Artifact = ({ data, type }) => {
@@ -38,7 +39,10 @@ const Artifact = ({ data, type }) => {
                 <div className={classes.statGroup}>
                     <div>Meta</div>
                     <div className={classes.statRow}>
-                        <div>{data.stars}</div>
+                        {/* <div>{data.stars}</div> */}
+                        <div>
+                            <img src={stars[data.stars]} alt={data.stars}></img>
+                        </div>
                         <div>{`Level: ${data.level}`}</div>
                     </div>
                 </div>
