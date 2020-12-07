@@ -8,6 +8,7 @@ const getSetBonusList = (artifacts) => {
     for(let i=0; i<pieces.length; i++) {
         let p = pieces[i].set;
 
+        if(p === "none") continue;
         if(setCount.hasOwnProperty(p)) {
             setCount[p] = setCount[p] + 1;
         } else {

@@ -11,6 +11,11 @@
     background-color: #272727;
     overflow: hidden;
     color: rgba(255,255,255,0.7);
+    transition: all 0.2s ease;
+}
+
+.Artifact:hover {
+    box-shadow: -1.4px 1.4px 4px rgba(0,0,0,0.64);
 }
 
 .info {
@@ -70,4 +75,11 @@
 
 .statRow img {
     height: 18px;
+}
+
+.noStats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
 }

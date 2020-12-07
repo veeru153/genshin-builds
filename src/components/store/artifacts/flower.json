@@ -1,4 +1,10 @@
 {
+  "none": {
+    "setName": "None",
+    "type": "flower",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Icon_Flower_of_Life.png",
+    "name": "None"
+  },
   "sch": {
     "setName": "Scholar",
     "type": "flower",

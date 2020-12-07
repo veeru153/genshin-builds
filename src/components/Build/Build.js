@@ -1,32 +1,52 @@
 import React, { Component } from 'react';
 import Artifact from '../Artifact/Artifact';
 import Character from '../Character/Character';
-import classes from './Layout.module.css';
+import classes from './Build.module.css';
 
 import { getArtifactsFromParams, getCharacterFromParams } from '../util';
-import { characters, elements } from '../store';
+import { characters } from '../store';
 import Bonus from '../Bonus/Bonus';
+import Error from '../Error/Error';
 
-class Layout extends Component {
+class Build extends Component {
 
     state = {
         loaded: false,
+        error: false,
+        errorMsg: "",
         character: { },
         artifacts: { },
     }
 
     async componentDidMount() {
         const s = window.location.search;
-        const params = s.split("&");
 
-        const character = await getCharacterFromParams(params);
-        const artifacts = await getArtifactsFromParams(params);
+        if(s.length === 0) {
+            this.setState({ 
+                error: true,
+                errorMsg: "Invalid URL. Check that the URL is correct and try again."
+            });
+        } else {
+            const params = s.split("&");
 
-        this.setState({
-            character: character,
-            artifacts: artifacts,
-            loaded: true,
-        })
+            let character, artifacts;
+    
+            try {
+                character = await getCharacterFromParams(params);
+                artifacts = await getArtifactsFromParams(params);
+
+                this.setState({
+                    character: character,
+                    artifacts: artifacts,
+                    loaded: true,
+                })
+            } catch (e) {
+                this.setState({
+                    error: true,
+                    errorMsg: e
+                })
+            }
+        }
     }
 
     render() {
@@ -36,8 +56,10 @@ class Layout extends Component {
                     : characters[this.state.character.name]?.element;
         return (
             <>
-            {this.state.loaded ? 
-                <div className={classes.Layout}>
+            {this.state.error ?
+                <Error err={this.state.errorMsg} /> :
+            this.state.loaded ? 
+                <div className={classes.Build}>
                     <Character data={this.state.character}/>
                     <div className={classes.artifacts}>
                         <Artifact type="flower" data={flower} />
@@ -55,4 +77,4 @@ class Layout extends Component {
     }
 }
 
-export default Layout;
+export default Build;

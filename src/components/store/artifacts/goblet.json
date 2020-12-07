@@ -1,4 +1,10 @@
 {
+  "none": {
+    "setName": "None",
+    "type": "goblet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Icon_Goblet_of_Eonothem.png",
+    "name": "None"
+  },
   "sch": {
     "setName": "Scholar",
     "type": "goblet",

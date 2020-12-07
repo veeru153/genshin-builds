@@ -1,4 +1,10 @@
 {
+  "none": {
+    "setName": "None",
+    "type": "plume",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Icon_Plume_of_Death.png",
+    "name": "None"
+  },
   "sch": {
     "setName": "Scholar",
     "type": "feather",

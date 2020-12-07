@@ -1,4 +1,10 @@
 {
+  "none": {
+    "setName": "None",
+    "type": "circlet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Icon_Circlet_of_Logos.png",
+    "name": "None"
+  },
   "sch": {
     "setName": "Scholar",
     "type": "circlet",

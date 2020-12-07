@@ -1,4 +1,10 @@
 {
+  "none": {
+    "name": "None",
+    "img": "",
+    "setBonus2": "",
+    "setBonus4": ""
+  },
   "adv": {
     "name": "Adventurer",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Item_Adventurer_3-star.png",

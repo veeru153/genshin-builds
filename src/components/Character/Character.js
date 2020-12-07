@@ -5,6 +5,7 @@ import { characters, elements, weaponTypes } from '../store';
 
 const Character = ({ data }) => {
     let el = data.name == "Traveler" ? data.element : characters[data.name].element;
+    console.log(elements[el]);
     return (
         <div className={classes.Character}>
             <div className={classes.imgContainer}>

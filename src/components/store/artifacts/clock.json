@@ -1,4 +1,10 @@
 {
+  "none": {
+    "setName": "None",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Icon_Sands_of_Eon.png",
+    "name": "None"
+  },
   "sch": {
     "setName": "Scholar",
     "type": "clock",

@@ -1,0 +1,48 @@
+.Error {
+    width: 100%;
+    height: 80vh;
+    padding: 10vh 0;
+    background-color: #1d1d1d;
+    color: rgba(255,255,255,0.7);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: clamp(16px, 4vw, 80px);
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64%;
+    height: 100%;
+    margin: auto;
+    font-size: clamp(16px, 1.6vw, 40px);
+}
+
+.navBtn {
+    text-decoration: none;
+}
+
+.navBtn button {
+    all: unset;
+    color: rgba(255,255,255,0.7);
+    font-size: clamp(16px, 2vw, 40px);
+    background-color:  #2f2f2f;
+    padding: 20px 40px;
+    border-radius: 16px;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.64);
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.navBtn button:hover {
+    box-shadow: -1.4px 1.4px 4px rgba(0,0,0,0.64);
+}

@@ -20,18 +20,23 @@ class Bonus extends Component {
     render() {
         return (
             <div className={classes.Bonus}>
-                <div className={classes.heading}>Set Bonuses</div>
-                <div className={classes.bonusList}>
-                    {this.state.bonusList.map(bonus => {
-                        return (
-                            <div className={classes.bonusRow}>
-                                <div>{bonus.setName}</div>
-                                <div>{bonus.type}</div>
-                                <div>{bonus.bonus}</div>
-                            </div>
-                        )
-                    })}
-                </div>
+                {this.state.bonusList.length === 0 ?
+                    null :
+                    <>
+                        <div className={classes.heading}>Set Bonuses</div>
+                        <div className={classes.bonusList}>
+                            {this.state.bonusList.map(bonus => {
+                                return (
+                                    <div className={classes.bonusRow}>
+                                        <div>{bonus.setName}</div>
+                                        <div>{bonus.type}</div>
+                                        <div>{bonus.bonus}</div>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </>
+                }
             </div>
         )
     }
