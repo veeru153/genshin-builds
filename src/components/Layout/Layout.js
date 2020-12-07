@@ -5,6 +5,7 @@ import classes from './Layout.module.css';
 
 import { getArtifactsFromParams, getCharacterFromParams } from '../util';
 import { characters, elements } from '../store';
+import Bonus from '../Bonus/Bonus';
 
 // http://localhost:3000/?character=Bennett,2,31&flower=sch,12,hp+69,atk+4.20p,critr+3.6p&plume=sch,12,hp+69,atk+4.20p,critr+3.6p&sands=sch,12,hp+69,atk+4.20p,critr+3.6p&goblet=sch,12,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,hp+69,atk+4.20p,critr+3.6p
 
@@ -49,6 +50,7 @@ class Layout extends Component {
                         <Artifact type="goblet" data={goblet} />
                         <Artifact type="circlet" data={circlet} />
                     </div>
+                    <Bonus artifacts={this.state.artifacts} />
                 </div> :
                 <p>Loading...</p>
             }
