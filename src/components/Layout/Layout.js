@@ -37,7 +37,7 @@ class Layout extends Component {
         return (
             <>
             {this.state.loaded ? 
-                <div className={classes.Layout} style={{ backgroundColor: elements[el].hex }}>
+                <div className={classes.Layout}>
                     <Character data={this.state.character}/>
                     <div className={classes.artifacts}>
                         <Artifact type="flower" data={flower} />

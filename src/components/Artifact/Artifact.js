@@ -29,7 +29,10 @@ const Artifact = ({ data, type }) => {
 
     return (
         <div className={classes.Artifact}>
-            <div className={classes.info}>
+            <div 
+                className={classes.info}
+                style={{ backgroundColor: getBgColor(data.stars )}}
+            >
                 <div className={classes.imgContainer}>
                     <img src={list[data.set].img}></img>
                 </div>
@@ -59,6 +62,14 @@ const Artifact = ({ data, type }) => {
             </div>
         </div>
     )
+}
+
+const getBgColor = (stars) => {
+    switch(stars) {
+        case 3: return "#576c90";
+        case 4: return "#685f94";
+        case 5: return "#9b6f3c";
+    }
 }
 
 export default Artifact;

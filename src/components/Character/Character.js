@@ -8,7 +8,11 @@ const Character = ({ data }) => {
     return (
         <div className={classes.Character}>
             <div className={classes.imgContainer}>
-                <img src={characters[data.name].img} alt={data.name}></img>
+                <img 
+                    src={characters[data.name].img} 
+                    alt={data.name}
+                    style={{ backgroundColor: elements[el].hex }}
+                ></img>
             </div>
             <div className={classes.info}>
                 <div className={classes.meta}>

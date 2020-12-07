@@ -3,7 +3,8 @@
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 2.4fr 1fr;
-    background-color: #e17632;
+    background-color: #1d1d1d;
+    color: rgba(255,255,255,0.7);
 }
 
 .artifacts {
