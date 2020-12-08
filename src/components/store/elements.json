@@ -1,31 +1,31 @@
 {
-    "Pyro": {
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Element_Pyro.png",
-        "hex": "#e17632"
-    },
-    "Hydro": {
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Element_Hydro.png",
-        "hex": "#3898c8"
-    },
-    "Electro": {
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Electro.png",
-        "hex": "#a567cc"
-    },
-    "Dendro": {
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Element_Dendro.png",
-        "hex": "#608810"
+    "Anemo": {
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Element_Anemo.png",
+        "hex": "#4eac81"
     },
     "Cryo": {
         "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Element_Cryo.png",
         "hex": "#5cbec0"
     },
+    "Dendro": {
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Element_Dendro.png",
+        "hex": "#608810"
+    },
+    "Electro": {
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Electro.png",
+        "hex": "#a567cc"
+    },
     "Geo": {
         "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Element_Geo.png",
         "hex": "#ca9027"
     },
-    "Anemo": {
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Element_Anemo.png",
-        "hex": "#4eac81"
+    "Hydro": {
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Element_Hydro.png",
+        "hex": "#3898c8"
+    },
+    "Pyro": {
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Element_Pyro.png",
+        "hex": "#e17632"
     },
     "Adaptive": {
         "img": "",

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classes from './Create.module.css';
 
 import { Formik } from 'formik';
-// import { characters, elements } from '../store/validationData';
 import { characters, elements } from '../store';
 import Radio from '../UI/Radio/Radio';
 
@@ -17,12 +16,18 @@ class Create extends Component {
         switch (type) {
             case "character":
                 characterTemp[0] = newVal;
+                characterTemp[3] = characterTemp[0] === "Traveler" ? "Anemo" : characters[newVal].element;
                 break;
             case "ascension":
                 characterTemp[1] = newVal;
                 break;
             case "level":
                 characterTemp[2] = newVal;
+                break;
+            case "element":
+                if(characterTemp[0] === "Traveler") {
+                    characterTemp[3] = newVal;
+                }
                 break;
             default:
                 break;
@@ -37,7 +42,7 @@ class Create extends Component {
                 <div className={classes.subHeading}>Create and Share your own Genshin Impact builds</div>
                 <Formik
                     initialValues={{
-                        character: ["Amber", "1", "1"],
+                        character: ["Amber", "1", "1", "Pyro"],
                         flower: ["", "", "",],
                         plume: ["", "", "",],
                         sands: ["", "", "",],
@@ -62,7 +67,7 @@ class Create extends Component {
                                     <img
                                         src={characters[props.values.character[0]].img}
                                         alt={props.values.character[0]}
-                                        style={{ backgroundColor: elements[characters[props.values.character[0]].element].hex }}
+                                        style={{ backgroundColor: elements[props.values.character[3]].hex }}
                                     />
                                 </div>
                             </div>
@@ -84,6 +89,22 @@ class Create extends Component {
                                         value={props.values.character[2]}
                                         onChange={(e) => this.handleCharacterSelection("level", e.target.value, props)}
                                     ></input>
+                                </div>
+                                <div style={{ display: props.values.character[0] === "Traveler" ? "flex" : "none" }}>
+                                    <div>Element:</div>
+                                    <select 
+                                        className={classes.dropdown}
+                                        onChange={(e) => this.handleCharacterSelection("element", e.target.value, props)}
+                                    >
+                                        {Object.keys(elements).map(el => {
+                                            if(el === "Adaptive") { }
+                                            else {
+                                                return (
+                                                    <option value={el}>{el}</option>
+                                                )
+                                            }
+                                        })}
+                                    </select>
                                 </div>
                             </div>
                             {/* <div className={classes.charAttribs}>

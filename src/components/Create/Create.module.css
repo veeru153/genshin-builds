@@ -24,22 +24,10 @@
 }
 
 .dropdown {
-    color: rgba(255, 255, 255, 0.7);
-    margin: 50px;
-    width: 150px;
-    height: 54px;
-    padding: 5px 16px;
-    font-size: 16px;
-    background: #272727;
-    appearance: none;
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.64);
-    border-radius: 20px;
-    border: 2px solid black;
-    transition: all 0.2s ease;
-}
-
-.dropdown:hover {
-    box-shadow: -1.4px 1.4px 4px rgba(0, 0, 0, 0.64);
+    all: unset;
+    appearance: auto;
+    border-bottom: 2px solid white;
+    padding: 0 5px;
 }
 
 .characterSection {
@@ -75,7 +63,7 @@
 
 .charAttribs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     margin-top: 40px;
