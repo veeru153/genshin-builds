@@ -26,5 +26,9 @@
     "Anemo": {
         "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Element_Anemo.png",
         "hex": "#4eac81"
+    },
+    "Adaptive": {
+        "img": "",
+        "hex": "#ffffff00"
     }
 }

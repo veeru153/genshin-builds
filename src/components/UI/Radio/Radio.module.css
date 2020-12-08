@@ -1,0 +1,30 @@
+.Radio {
+    margin-right: 10px;
+    margin-top: 50px;
+    color: rgba(255,255,255,0.7);
+}
+
+.Radio input[type=radio] {
+    display: none;
+}
+
+.Radio input[type=radio]+label {
+    background-color:  #2f2f2f;
+    padding: 16px 30px;
+    border-radius: 34px;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.64);
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.Radio input[type=radio]+label:hover {
+    box-shadow: -1.4px 1.4px 4px rgba(0,0,0,0.64);
+}
+
+.Radio input[type=radio]:checked+label {
+    background-color:  #414141;
+    box-shadow: -1.4px 1.4px 4px rgba(0,0,0,0.64);
+}

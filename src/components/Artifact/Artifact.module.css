@@ -1,4 +1,5 @@
 .Artifact {
+    min-width: 252px;
     display: grid;
     grid-template-rows: 0.3fr 0.7fr;
     border-left: 0.5px solid black;

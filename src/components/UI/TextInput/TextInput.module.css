@@ -1,0 +1,8 @@
+.TextInput {
+    all: unset;
+    border-bottom: 2px solid white;
+}
+
+.TextInput:focus {
+    border-bottom: 2px solid rgb(255, 195, 83);
+}
