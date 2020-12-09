@@ -1,6 +1,6 @@
 .Create {
     width: 100%;
-    min-height: 96vh;
+    min-height: 200vh;
     padding-top: 4vh;
     background-color: #1d1d1d;
     color: rgba(255, 255, 255, 0.7);
@@ -79,10 +79,87 @@
 
 .TextInput {
     all: unset;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     width: 36px;
 }
 
 .TextInput:focus {
-    border-bottom: 2px solid rgb(255, 195, 83);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.artifactSection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 40px;
+}
+
+.artifactData {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.artifactInfo {
+    display: grid;
+    grid-template-columns: 1.25fr 1.75fr;
+}
+
+.artifactInfo div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.artifactInfo div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.artifactInfo select {
+    /* margin: 0 40px; */
+    width: 70%;
+    word-break: break-all;
+}
+
+.artifactTitle {
+    font-size: clamp(16px, 2vw, 40px);
+}
+
+.artifactMeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: auto; */
+}
+.artifactMeta div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+section.stats {
+    margin: 20px auto;
+}
+
+.statPair {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 24px auto;
+}
+
+.statPair select {
+    width: 50%;
+}
+
+.addSubStatBtn {
+    all: unset;
+    padding: 4px 8px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.addSubStatBtn:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }

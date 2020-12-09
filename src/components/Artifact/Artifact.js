@@ -34,7 +34,7 @@ const Artifact = ({ data, type }) => {
                 style={{ backgroundColor: getBgColor(data.stars) }}
             >
                 <div className={classes.imgContainer}>
-                    <img src={list[data.set].img}></img>
+                    <img src={list[data.set].img} alt={list[data.set].name}></img>
                 </div>
                 <div className={classes.name}>{list[data.set].name}</div>
             </div>

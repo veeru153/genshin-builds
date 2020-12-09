@@ -12,6 +12,7 @@ const Radio = ({ id, name, value, selection, clicked }) => {
                 value={value} 
                 checked={selection}
                 onClick={clicked}
+                onChange={() => console.log(value)}
             ></input>
             <label htmlFor={value}>{value}</label>
         </div>

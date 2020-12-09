@@ -9,7 +9,7 @@
     "setName": "Scholar",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png",
-    "name": " Scholar's Clock"
+    "name": "Scholar's Clock"
   },
   "lyd": {
     "setName": "Lucky Dog",
@@ -39,7 +39,7 @@
     "setName": "Viridescent Venerer",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png",
-    "name": " Viridescent Venerer's Determination"
+    "name": "Viridescent Venerer's Determination"
   },
   "wat": {
     "setName": "Wanderer's Troupe",
@@ -81,7 +81,7 @@
     "setName": "Gambler",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png",
-    "name": " Gambler's Pocket Watch"
+    "name": "Gambler's Pocket Watch"
   },
   "brh": {
     "setName": "Brave Heart",
@@ -153,6 +153,6 @@
     "setName": "Tiny Miracle",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png",
-    "name": " Tiny Miracle's Hourglass"
+    "name": "Tiny Miracle's Hourglass"
   }
 }
