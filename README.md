@@ -2,4 +2,17 @@
 
 A tool to showcase your Genshin Impact character builds with ease.
 
-Work in Progress...
+Simply create a build, click "Generate Build", and share the build with the link.
+
+Currently not optimised for mobile.
+
+## To-Do
+
+- [X] Artifacts
+- [ ] Weapons
+- [ ] Character Constellations
+- [ ] Character Talents
+
+## Credits
+
+- Assets were taken from  [Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki).

@@ -209,3 +209,7 @@ section.stats {
         justify-content: unset;
     }
 }
+
+option {
+    color: black;
+}
