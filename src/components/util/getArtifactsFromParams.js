@@ -38,11 +38,13 @@ const getArtifactsFromParams = (params) => {
 
         artifacts[type] = {
             set: data[0].trim(),
-            level: parseInt(data[1]),
-            stars: parseInt(data[2]),
+            stars: parseInt(data[1]),
+            level: parseInt(data[2]),
             main: data[3].split("+"),
             sub: data.slice(4).map(x => x.split("+"))
         }
+
+        console.log(a);
 
         if(isInvalid(artifacts[type])) {
             throw new Error(`Incomplete or Invalid Artifact (${type}) Data.\nCheck the URL and try again or create your own build.`)

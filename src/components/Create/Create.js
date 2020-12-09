@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import classes from './Create.module.css';
 
 import { Formik } from 'formik';
-import { characters, elements, statPairs } from '../store';
+import ArtifactSelection from './ArtifactSelection';
+import { characters, elements } from '../store';
 import { flower, feather, clock, goblet, circlet } from '../store/artifacts';
 import Radio from '../UI/Radio/Radio';
 
@@ -83,6 +84,21 @@ class Create extends Component {
         props.setFieldValue(a, artifactTemp);
     }
 
+    encodeArtifactData = (artifactData) => {
+        let arr = artifactData.slice(0, 3);
+
+        for(let i=3; i<artifactData.length-1; i+=2) {
+            let statKey = artifactData[i];
+            let statVal = artifactData[i+1];
+            if(statVal.endsWith("%")) statVal = statVal.substring(0, statVal.length-1) + "p";
+
+            arr.push(`${statKey}+${statVal}`);
+        }
+
+        console.log(arr);
+        return arr.join(",");
+    }
+
     render() {
         return (
             <div className={classes.Create}>
@@ -91,15 +107,23 @@ class Create extends Component {
                 <Formik
                     initialValues={{
                         character: ["Amber", "1", "1", "Pyro"],
-                        flower: ["none", "3", "0", "hp", "", "hp", ""],
+                        flower: ["none", "3", "0", "hp", ""],
                         plume: ["none", "3", "0", "hp", ""],
                         sands: ["none", "3", "0", "hp", ""],
                         goblet: ["none", "3", "0", "hp", ""],
                         circlet: ["none", "3", "0", "hp", ""]
                     }}
+                    onSubmit={(values) => {
+                        let { character, flower, plume, sands, goblet, circlet } = values;
+
+                        let buildUrl = `build?character=${character.join(",")}&flower=${this.encodeArtifactData(flower)}&plume=${this.encodeArtifactData(plume)}&sands=${this.encodeArtifactData(sands)}&goblet=${this.encodeArtifactData(goblet)}&circlet=${this.encodeArtifactData(circlet)}`;
+
+                        console.log(buildUrl);
+                        window.open(`${window.location.origin}/${buildUrl}`);
+                    }}
                 >
                     {(props) => (
-                        <form className={classes.form}>
+                        <form className={classes.form} onSubmit={props.handleSubmit}>
                             <div className={classes.characterSection}>
                                 <section className={classes.characterSectionBtns}>
                                     {Object.keys(characters).map(c => (
@@ -193,119 +217,13 @@ class Create extends Component {
                                     _={this}
                                 />
                             </div>
+                            <button type="submit" className={classes.submitBtn}>Generate Build</button>
                         </form>
                     )}
                 </Formik>
             </div>
         )
     }
-}
-
-const ArtifactSelection = ({ title, aType, tag, fprops, _ }) => {
-
-    let subStatPairs = [];
-    for (let i = 5; i < fprops.values[tag].length; i += 2) {
-        subStatPairs.push(
-            <div className={classes.statPair}>
-                <div>
-                    <select
-                        className={classes.dropdown}
-                        onChange={(e) => _.handleArtifactSubStat(tag, i, true, e.target.value, fprops)}
-                    >
-                        {Object.keys(statPairs).map(s => (
-                            <option value={s}>{statPairs[s]}</option>
-                        ))}
-                    </select>
-                </div>
-                <div>
-                    <input
-                        type="text"
-                        className={classes.TextInput}
-                        value={fprops.values[tag][i + 1]}
-                        onChange={(e) => _.handleArtifactSubStat(tag, i + 1, false, e.target.value, fprops)}
-                    ></input>
-                </div>
-            </div>
-        )
-    }
-
-
-    return (
-        <div className={classes.artifactData}>
-            <div className={classes.artifactTitle}>{title}</div>
-            <div className={classes.artifactInfo}>
-                <div className={classes.imgContainer}>
-                    <img src={aType[fprops.values[tag][0]].img}></img>
-                </div>
-                <div>
-                    <select
-                        className={classes.dropdown}
-                        onChange={(e) => _.handleArtifactSelection(tag, e.target.value, fprops)}
-                    >
-                        {Object.keys(aType).map(a => (
-                            <option value={a}>{aType[a].name}</option>
-                        ))}
-                    </select>
-                </div>
-            </div>
-            <div className={classes.artifactMeta}>
-                <div>
-                    <div>Stars</div>
-                    <input
-                        type="text"
-                        className={classes.TextInput}
-                        value={fprops.values[tag][1]}
-                        onChange={(e) => _.handleArtifactMeta(tag, "stars", e.target.value, fprops)}
-                    ></input>
-                </div>
-                <div>
-                    <div>Level</div>
-                    <input
-                        type="text"
-                        className={classes.TextInput}
-                        value={fprops.values[tag][2]}
-                        onChange={(e) => _.handleArtifactMeta(tag, "level", e.target.value, fprops)}
-                    ></input>
-                </div>
-            </div>
-
-            <section className={classes.stats}>
-                <p>Main Stat</p>
-                <div className={classes.statPair}>
-                    <div>
-                        <select
-                            className={classes.dropdown}
-                            onChange={(e) => _.handleArtifactMainStat(tag, true, e.target.value, fprops)}
-                        >
-                            {Object.keys(statPairs).map(s => (
-                                <option value={s}>{statPairs[s]}</option>
-                            ))}
-                        </select>
-                    </div>
-                    <div>
-                        <input
-                            type="text"
-                            className={classes.TextInput}
-                            value={fprops.values[tag][4]}
-                            onChange={(e) => _.handleArtifactMainStat(tag, false, e.target.value, fprops)}
-                        ></input>
-                    </div>
-                </div>
-            </section>
-
-            <section className={classes.stats}>
-                <p>Sub Stats</p>
-                {subStatPairs.map(p => p)}
-            </section>
-
-            <div>
-                <button className={classes.addSubStatBtn} onClick={(e) => _.addSubStat(e, tag, fprops)}>
-                    + Add Sub Stat
-                </button>
-            </div>
-
-        </div>
-    )
 }
 
 export default Create;
