@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -13,8 +13,8 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/build" component={Build} />
-          <Route path="/" component={Create} />
+          <Route exact path="/build" component={Build} />
+          <Route exact path="/" component={Create} />
         </Switch>
       </div>
     </Router>

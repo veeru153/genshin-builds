@@ -95,7 +95,6 @@ class Create extends Component {
             arr.push(`${statKey}+${statVal}`);
         }
 
-        console.log(arr);
         return arr.join(",");
     }
 
@@ -118,8 +117,8 @@ class Create extends Component {
 
                         let buildUrl = `build?character=${character.join(",")}&flower=${this.encodeArtifactData(flower)}&plume=${this.encodeArtifactData(plume)}&sands=${this.encodeArtifactData(sands)}&goblet=${this.encodeArtifactData(goblet)}&circlet=${this.encodeArtifactData(circlet)}`;
 
-                        console.log(buildUrl);
-                        window.open(`${window.location.origin}/${buildUrl}`);
+                        window.open(`${process.env.PUBLIC_URL}/#/${buildUrl}`);
+                        
                     }}
                 >
                     {(props) => (

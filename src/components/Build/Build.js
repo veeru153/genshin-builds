@@ -5,6 +5,7 @@ import classes from './Build.module.css';
 
 import { getArtifactsFromParams, getCharacterFromParams } from '../util';
 import { characters } from '../store';
+
 import Bonus from '../Bonus/Bonus';
 import Error from '../Error/Error';
 
@@ -19,7 +20,7 @@ class Build extends Component {
     }
 
     async componentDidMount() {
-        const s = window.location.search;
+        const s = window.location.hash.substring(9);
 
         if(s.length === 0) {
             this.setState({ 

@@ -34,7 +34,7 @@
     /* width: 98vw; */
     margin: 0 12px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 }
 
 .characterSectionBtns {
@@ -42,6 +42,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px 1px;
+    justify-content: center;
 }
 
 .imgContainer {
@@ -91,6 +92,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 40px;
+    overflow-x: scroll;
 }
 
 .artifactData {
@@ -104,6 +106,7 @@
     background-color: #272727;
     padding: 10px 0;
     transition: all 0.2s ease;
+    min-width: 200px;
 }
 
 .artifactData:hover {
@@ -119,8 +122,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: clamp(64px,5.5vw, 84px);
+    height: clamp(64px,5.5vw, 84px);
 }
 
 .artifactInfo div:nth-child(2) {
@@ -196,4 +199,13 @@ section.stats {
 }
 .submitBtn:hover {
     box-shadow: -1.4px 1.4px 4px rgba(0,0,0,0.64);   
+}
+
+@media only screen and (min-width: 768px) {
+    .characterSection {
+        flex-direction: row;
+    }
+    .characterSectionBtns {
+        justify-content: unset;
+    }
 }
