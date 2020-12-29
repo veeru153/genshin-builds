@@ -4,8 +4,6 @@ A tool to showcase your Genshin Impact character builds with ease.
 
 Simply create a build, click "Generate Build", and share the build with the link.
 
-Currently not optimised for mobile.
-
 ## To-Do
 
 - [X] Artifacts

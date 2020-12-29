@@ -19,7 +19,7 @@ export const setAbbreviations = [
     "blc", "nob", "gam", "brh", "trd", 
     "adv", "mar", "reb", "lav", "ber",
     "ths", "thf", "arp", "ins", "tim",
-    "icb", "ocb",
+    "icb", "oce",
     "one_pwis", "one_pspt", "one_pill", "one_pdes",     // One Piece Sets
 ]
 
