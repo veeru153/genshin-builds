@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/genshin-builds/static/css/main.8925f760.chunk.css",
-    "main.js": "/genshin-builds/static/js/main.b9d7c6b7.chunk.js",
-    "main.js.map": "/genshin-builds/static/js/main.b9d7c6b7.chunk.js.map",
+    "main.css": "/genshin-builds/static/css/main.3864fa45.chunk.css",
+    "main.js": "/genshin-builds/static/js/main.ef232424.chunk.js",
+    "main.js.map": "/genshin-builds/static/js/main.ef232424.chunk.js.map",
     "runtime-main.js": "/genshin-builds/static/js/runtime-main.d0298c0b.js",
     "runtime-main.js.map": "/genshin-builds/static/js/runtime-main.d0298c0b.js.map",
     "static/js/2.a033ddff.chunk.js": "/genshin-builds/static/js/2.a033ddff.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4bb35fcf.chunk.js": "/genshin-builds/static/js/3.4bb35fcf.chunk.js",
     "static/js/3.4bb35fcf.chunk.js.map": "/genshin-builds/static/js/3.4bb35fcf.chunk.js.map",
     "index.html": "/genshin-builds/index.html",
-    "static/css/main.8925f760.chunk.css.map": "/genshin-builds/static/css/main.8925f760.chunk.css.map",
+    "static/css/main.3864fa45.chunk.css.map": "/genshin-builds/static/css/main.3864fa45.chunk.css.map",
     "static/js/2.a033ddff.chunk.js.LICENSE.txt": "/genshin-builds/static/js/2.a033ddff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d0298c0b.js",
     "static/js/2.a033ddff.chunk.js",
-    "static/css/main.8925f760.chunk.css",
-    "static/js/main.b9d7c6b7.chunk.js"
+    "static/css/main.3864fa45.chunk.css",
+    "static/js/main.ef232424.chunk.js"
   ]
 }
