@@ -5,65 +5,17 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Icon_Sands_of_Eon.png",
     "name": "None"
   },
-  "sch": {
-    "setName": "Scholar",
+  "adv": {
+    "setName": "Adventurer",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png",
-    "name": "Scholar's Clock"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png",
+    "name": "Adventurer's Pocket Watch"
   },
-  "lyd": {
-    "setName": "Lucky Dog",
+  "ber": {
+    "setName": "Berserker",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png",
-    "name": "Lucky Dog's Hourglass"
-  },
-  "cwf": {
-    "setName": "Crimson Witch of Flames",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png",
-    "name": "Witch's End Time"
-  },
-  "dew": {
-    "setName": "Defender's Will",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Guardian%27s_Clock.png",
-    "name": "Guardian's Clock"
-  },
-  "exl": {
-    "setName": "The Exile",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png",
-    "name": "Exile's Pocket Watch"
-  },
-  "viv": {
-    "setName": "Viridescent Venerer",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png",
-    "name": "Viridescent Venerer's Determination"
-  },
-  "wat": {
-    "setName": "Wanderer's Troupe",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png",
-    "name": "Concert's Final Hour"
-  },
-  "glf": {
-    "setName": "Gladiator's Finale",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png",
-    "name": "Gladiator's Longing"
-  },
-  "ros": {
-    "setName": "Resolution of Sojourner",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Sundial_of_the_Sojourner.png",
-    "name": "Sundial of the Sojourner"
-  },
-  "mab": {
-    "setName": "Maiden Beloved",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png",
-    "name": "Maiden's Passing Youth"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png",
+    "name": "Berserker's Timepiece"
   },
   "blc": {
     "setName": "Bloodstained Chivalry",
@@ -71,17 +23,23 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Bloodstained_Final_Hour.png",
     "name": "Bloodstained Final Hour"
   },
-  "nob": {
-    "setName": "Noblesse Oblige",
+  "wat": {
+    "setName": "Wanderer's Troupe",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png",
-    "name": "Royal Pocket Watch"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png",
+    "name": "Concert's Final Hour"
   },
-  "gam": {
-    "setName": "Gambler",
+  "oce": {
+    "setName": "Ocean Conqueror",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png",
-    "name": "Gambler's Pocket Watch"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png",
+    "name": "Copper Compass"
+  },
+  "exl": {
+    "setName": "The Exile",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Item_Exile%27s_Pocket_Watch.png",
+    "name": "Exile's Pocket Watch"
   },
   "brh": {
     "setName": "Brave Heart",
@@ -89,41 +47,29 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Fortitude_of_the_Brave.png",
     "name": "Fortitude of the Brave"
   },
-  "trd": {
-    "setName": "Traveling Doctor",
+  "icb": {
+    "setName": "Icebreaker",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png",
-    "name": "Traveling Doctor's Pocket Watch"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Frozen_Homeland%27s_Demise.png",
+    "name": "Frozen Homeland's Demise"
   },
-  "adv": {
-    "setName": "Adventurer",
+  "gam": {
+    "setName": "Gambler",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Adventurer%27s_Pocket_Watch.png",
-    "name": "Adventurer's Pocket Watch"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Item_Gambler%27s_Pocket_Watch.png",
+    "name": "Gambler's Pocket Watch"
   },
-  "mar": {
-    "setName": "Martial Artist",
+  "glf": {
+    "setName": "Gladiator's Finale",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png",
-    "name": "Martial Artist's Water Hourglass"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png",
+    "name": "Gladiator's Longing"
   },
-  "reb": {
-    "setName": "Retracing Bolide",
+  "dew": {
+    "setName": "Defender's Will",
     "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png",
-    "name": "Summer Night's Moment"
-  },
-  "lav": {
-    "setName": "Lavawalker",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png",
-    "name": "Lavawalker's Torment"
-  },
-  "ber": {
-    "setName": "Berserker",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Berserker%27s_Timepiece.png",
-    "name": "Berserker's Timepiece"
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Guardian%27s_Clock.png",
+    "name": "Guardian's Clock"
   },
   "ths": {
     "setName": "Thundersoother",
@@ -137,22 +83,88 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png",
     "name": "Hourglass of Thunder"
   },
-  "arp": {
-    "setName": "Archaic Petra",
-    "type": "clock",
-    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png",
-    "name": "Sundial of Enduring Jade"
-  },
   "ins": {
     "setName": "Instructor",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Instructor%27s_Pocket_Watch.png",
     "name": "Instructor's Pocket Watch"
   },
+  "lav": {
+    "setName": "Lavawalker",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png",
+    "name": "Lavawalker's Torment"
+  },
+  "lyd": {
+    "setName": "Lucky Dog",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Item_Lucky_Dog%27s_Hourglass.png",
+    "name": "Lucky Dog's Hourglass"
+  },
+  "mab": {
+    "setName": "Maiden Beloved",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png",
+    "name": "Maiden's Passing Youth"
+  },
+  "mar": {
+    "setName": "Martial Artist",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Martial_Artist%27s_Water_Hourglass.png",
+    "name": "Martial Artist's Water Hourglass"
+  },
+  "nob": {
+    "setName": "Noblesse Oblige",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png",
+    "name": "Royal Pocket Watch"
+  },
+  "sch": {
+    "setName": "Scholar",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Scholar%27s_Clock.png",
+    "name": "Scholar's Clock"
+  },
+  "reb": {
+    "setName": "Retracing Bolide",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png",
+    "name": "Summer Night's Moment"
+  },
+  "arp": {
+    "setName": "Archaic Petra",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png",
+    "name": "Sundial of Enduring Jade"
+  },
+  "ros": {
+    "setName": "Resolution of Sojourner",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Sundial_of_the_Sojourner.png",
+    "name": "Sundial of the Sojourner"
+  },
   "tim": {
     "setName": "Tiny Miracle",
     "type": "clock",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiny_Miracle%27s_Hourglass.png",
     "name": "Tiny Miracle's Hourglass"
+  },
+  "trd": {
+    "setName": "Traveling Doctor",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Traveling_Doctor%27s_Pocket_Watch.png",
+    "name": "Traveling Doctor's Pocket Watch"
+  },
+  "viv": {
+    "setName": "Viridescent Venerer",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png",
+    "name": "Viridescent Venerer's Determination"
+  },
+  "cwf": {
+    "setName": "Crimson Witch of Flames",
+    "type": "clock",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png",
+    "name": "Witch's End Time"
   }
 }

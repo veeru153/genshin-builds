@@ -1,5 +1,5 @@
 export const characters = [
-    'Amber',   'Barbara',   'Beidou',
+    'Albedo',  'Amber',     'Barbara',   'Beidou',
     'Bennett', 'Chongyun',  'Diluc',
     'Diona',   'Fischl',    'Jean',
     'Kaeya',   'Keqing',    'Klee',
@@ -19,6 +19,7 @@ export const setAbbreviations = [
     "blc", "nob", "gam", "brh", "trd", 
     "adv", "mar", "reb", "lav", "ber",
     "ths", "thf", "arp", "ins", "tim",
+    "icb", "ocb",
 ]
 
 export const statAbbreviations = [

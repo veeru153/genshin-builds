@@ -99,13 +99,16 @@ class Create extends Component {
     }
 
     render() {
+        const defaultChar = Object.keys(characters)[0];
+        const defaultEl = characters[defaultChar].element
         return (
             <div className={classes.Create}>
                 <div className={classes.heading}>Genshin Builds</div>
                 <div className={classes.subHeading}>Create and Share your own Genshin Impact builds</div>
                 <Formik
                     initialValues={{
-                        character: ["Amber", "1", "1", "Pyro"],
+                        // character: ["Amber", "1", "1", "Pyro"],
+                        character: [defaultChar, "1", "1", defaultEl],
                         flower: ["none", "3", "0", "hp", ""],
                         plume: ["none", "3", "0", "hp", ""],
                         sands: ["none", "3", "0", "hp", ""],

@@ -154,5 +154,17 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Bloodstained_Chivalry_5-star.png",
     "setBonus2": "Physical DMG +25%",
     "setBonus4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+  },
+  "icb": {
+    "name": "Icebreaker",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Ice_Breaker_5-star.png",
+    "setBonus2": "Cryo DMG Bonus +15%",
+    "setBonus4": "When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
+  },
+  "oce": {
+    "name": "Ocean Conquerer",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Item_Ocean_Conqueror_5-star.png",
+    "setBonus2": "Hydro DMG Bonus +15%",
+    "setBonus4": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
   }
 }

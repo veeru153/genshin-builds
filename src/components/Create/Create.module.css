@@ -93,6 +93,7 @@
     grid-template-columns: repeat(5, 1fr);
     margin-top: 40px;
     overflow-x: scroll;
+    padding: 8px 0;
 }
 
 .artifactData {

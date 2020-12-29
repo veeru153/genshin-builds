@@ -1,4 +1,11 @@
 {
+  "Albedo": {
+    "name": "Amber",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
+    "element": "Geo",
+    "weapon": "Sword"
+  },
   "Amber": {
     "name": "Amber",
     "rarity": 4,
