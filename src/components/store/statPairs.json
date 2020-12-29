@@ -3,13 +3,10 @@
     "atk": "ATK",
     "def": "DEF",
     "em": "Elemental Mastery",
-    "er": "Elemental Recharge",
+    "er": "Energy Recharge",
     "edb": "Elemental DMG Bonus",
     "pdb": "Physical DMG Bonus",
     "critr": "CRIT Rate",
     "critd": "CRIT DMG",
-    "hb": "Healing Bonus",
-    "bhp": "Base HP",
-    "batk": "Base ATK",
-    "bdef": "Base DEF"
+    "hb": "Healing Bonus"
 }

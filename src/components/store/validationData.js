@@ -24,8 +24,7 @@ export const setAbbreviations = [
 ]
 
 export const statAbbreviations = [
-    "hp", "atk", "def", "hpp", 
-    "atkp", "defp", "em", "erp", 
-    "edb", "pdb", "critr", "critd", 
-    "hb", "bhp", "batk", "bdef",
+    "hp", "atk", "def", 
+    "em", "er", "edb", "pdb", 
+    "critr", "critd", "hb",
 ]

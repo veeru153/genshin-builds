@@ -2,19 +2,13 @@ const statPairs = {
     hp: "HP",
     atk: "ATK",
     def: "DEF",
-    hpp: "HP",
-    atkp: "ATK",
-    defp: "DEF",
     em: "Elemental Mastery",
-    erp: "Elemental Recharge",
+    er: "Elemental Recharge",
     edb: "Elemental DMG Bonus",
     pdb: "Physical DMG Bonus",
     critr: "CRIT Rate",
     critd: "CRIT DMG",
     hb: "Healing Bonus",
-    bhp: "Base HP",
-    batk: "Base ATK",
-    bdef: "Base DEF",
 }
 
 const parseStat = (pair, classes) => {
