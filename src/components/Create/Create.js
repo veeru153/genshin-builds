@@ -7,9 +7,7 @@ import { characters, elements } from '../store';
 import { flower, feather, clock, goblet, circlet } from '../store/artifacts';
 import Radio from '../UI/Radio/Radio';
 
-// http://localhost:3000/build?character=Fischl,2,31&flower=adv,12,3,em+69,atk+4.20p,critr+3.6p&plume=cwf,12,3,hp+69,atk+4.20p,critr+3.6p&sands=wat,12,4,hp+69,atk+4.20p,critr+3.6p&goblet=adv,12,4,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,5,hp+69,atk+4.20p,critr+3.6p
-
-// http://localhost:3000/build?character=Amber,12,12&plume=adv,12,3,hp+69,atk+4.20p,critr+3.6p&goblet=adv,12,4,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,5,hp+69,atk+4.20p,critr+3.6p
+// http://localhost:3000/genshin-builds/#/build?character=Fischl,2,31&flower=adv,3,12,em+69,atk+4.20p,critr+3.6p&plume=cwf,3,12,hp+69,atk+4.20p,critr+3.6p&sands=wat,4,12,hp+69,atk+4.20p,critr+3.6p&goblet=adv,4,12,hp+69,atk+4.20p,critr+3.6p&circlet=sch,12,5,hp+69,atk+4.20p,critr+3.6p#/
 
 class Create extends Component {
 

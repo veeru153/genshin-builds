@@ -23,7 +23,14 @@ const getSetBonusList = (artifacts) => {
     for(let set in setCount) {
         let count = setCount[set];
 
-        if(count >= 4) {
+        if(set.startsWith("one_")) {
+            bonusArr.push({
+                setName: setInfo[set].name,
+                type: "1-Piece Set",
+                bonus: setInfo[set].setBonus1,
+                img: setInfo[set].img,
+            })
+        } else if(count >= 4) {
             bonusArr.push({
                 setName: setInfo[set].name,
                 type: "2-Piece Set",

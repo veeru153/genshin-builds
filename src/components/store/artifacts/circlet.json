@@ -166,5 +166,31 @@
     "type": "circlet",
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png",
     "name": "Witch's Scorching Hat"
+  },
+
+
+  "one_pwis": {
+    "setName": "Prayers for Wisdom",
+    "type": "circlet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Tiara_of_Thunder.png",
+    "name": "Tiara of Thunder"
+  },
+  "one_pspt": {
+    "setName": "Prayers for Springtime",
+    "type": "circlet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Tiara_of_Frost.png",
+    "name": "Tiara of Frost"
+  },
+  "one_pill": {
+    "setName": "Prayers for Illumination",
+    "type": "circlet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Tiara_of_Flame.png",
+    "name": "Tiara of Flame"
+  },
+  "one_pdes": {
+    "setName": "Prayers for Destiny",
+    "type": "circlet",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Tiara_of_Torrents.png",
+    "name": "Tiara of Torrents"
   }
 }

@@ -166,5 +166,26 @@
     "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Item_Ocean_Conqueror_5-star.png",
     "setBonus2": "Hydro DMG Bonus +15%",
     "setBonus4": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+  },
+  
+  "one_pwis": {
+    "name": "Prayers for Wisdom",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Prayers_for_Wisdom_4-star.png",
+    "setBonus1": "Affected by Electro for 40% less time."
+  },
+  "one_pspt": {
+    "name": "Prayers for Springtime",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Item_Prayers_to_Springtime_4-star.png",
+    "setBonus1": "Affected by Cryo for 40% less time."
+  },
+  "one_pill": {
+    "name": "Prayers for Illumination",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Prayers_for_Illumination_4-star.png",
+    "setBonus1": "Affected by Pyro for 40% less time."
+  },
+  "one_pdes": {
+    "name": "Prayers for Destiny",
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Item_Prayers_for_Destiny_4-star.png",
+    "setBonus1": "Affected by Hydro for 40% less time."
   }
 }

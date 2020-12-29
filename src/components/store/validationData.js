@@ -20,6 +20,7 @@ export const setAbbreviations = [
     "adv", "mar", "reb", "lav", "ber",
     "ths", "thf", "arp", "ins", "tim",
     "icb", "ocb",
+    "one_pwis", "one_pspt", "one_pill", "one_pdes",     // One Piece Sets
 ]
 
 export const statAbbreviations = [
