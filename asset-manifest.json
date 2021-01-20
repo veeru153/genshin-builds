@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/genshin-builds/static/css/main.3864fa45.chunk.css",
-    "main.js": "/genshin-builds/static/js/main.92bddf66.chunk.js",
-    "main.js.map": "/genshin-builds/static/js/main.92bddf66.chunk.js.map",
+    "main.js": "/genshin-builds/static/js/main.cea9822b.chunk.js",
+    "main.js.map": "/genshin-builds/static/js/main.cea9822b.chunk.js.map",
     "runtime-main.js": "/genshin-builds/static/js/runtime-main.d0298c0b.js",
     "runtime-main.js.map": "/genshin-builds/static/js/runtime-main.d0298c0b.js.map",
     "static/js/2.a033ddff.chunk.js": "/genshin-builds/static/js/2.a033ddff.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d0298c0b.js",
     "static/js/2.a033ddff.chunk.js",
     "static/css/main.3864fa45.chunk.css",
-    "static/js/main.92bddf66.chunk.js"
+    "static/js/main.cea9822b.chunk.js"
   ]
 }
