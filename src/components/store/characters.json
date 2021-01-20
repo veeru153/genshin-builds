@@ -62,6 +62,13 @@
     "element": "Electro",
     "weapon": "Bow"
   },
+  "Ganyu": {
+    "name": "Ganyu",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png",
+    "element": "Cryo",
+    "weapon": "Bow"
+  },
   "Jean": {
     "name": "Jean",
     "rarity": 5,
