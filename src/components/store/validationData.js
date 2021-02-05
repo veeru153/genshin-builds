@@ -6,7 +6,7 @@ export const characters = [
     'Lisa',    'Mona',      'Ningguang',
     'Noelle',  'Qiqi',      'Razor',
     'Sucrose', 'Tartaglia', 'Traveler',
-    'Venti',   'Xiangling', 'Xingqiu',
+    'Venti',   'Xiangling', 'Xiao',      'Xingqiu',
     'Xinyan',  'Zhongli'
 ];
 

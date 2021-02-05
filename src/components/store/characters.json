@@ -174,6 +174,13 @@
     "element": "Pyro",
     "weapon": "Polearm"
   },
+  "Xiao": {
+    "name": "Xiao",
+    "rarity": 5,
+    "img": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png",
+    "element": "Anemo",
+    "weapon": "Polearm"
+  },
   "Xingqiu": {
     "name": "Xingqiu",
     "rarity": 4,
